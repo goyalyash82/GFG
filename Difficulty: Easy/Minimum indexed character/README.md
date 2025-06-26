@@ -1,10 +1,13 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/minimum-indexed-character-1587115620/1">Minimum indexed character</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a string&nbsp;<strong>s1</strong>&nbsp;and another string&nbsp;<strong>s2</strong>. Find the minimum index of the character in <strong>s1 </strong>that is also present in&nbsp;<strong>s2</strong>.</span></p>
-<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input: </strong>s1 = "geeksforgeeks", s2 = "set"
-<strong>Output: </strong>1<strong>
-Explanation: </strong>e is the character which is present in given s1 "geeksforgeeks" and is also present in s2 "set". Minimum index of e is 1. </span>
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-indexed-character0221/1">Minimum indexed character</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a string <strong>S</strong>&nbsp;and another string&nbsp;<strong>patt</strong>. Find the character in&nbsp;<strong>patt</strong>&nbsp;that is present at the minimum index in <strong>S</strong>.</span><br>&nbsp;</p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>S = "zsyle", patt = "bjz"
+<strong>Output: </strong>"z"</span>
 </pre>
-<pre><span style="font-size: 18px;"><strong>Input: </strong>s1 = "adcffaet", s2 = "onkl"
-<strong>Output: </strong>-1<strong>
-Explanation: </strong>There are none of the characters which is common in s1 and s2.</span></pre>
-<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ s1.size(), s2.size() ≤ 10<sup>5&nbsp;</sup><br>'a' &lt;= s1<sub>i</sub>, s2<sub>i</sub>&nbsp;&lt;= 'z'</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Ola Cabs</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;<code>Strings</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
+<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>S = "anskg", patt = "me"
+<strong>Output: </strong>"$"</span>
+</pre>
+<p>&nbsp;</p>
+<p><span style="font-size: 18px;"><strong>Your Task:</strong><br>You don't need to read or print anything. Your task is to complete the function&nbsp;<strong>printMinIndexChar()&nbsp;</strong>which takes <strong>S</strong>&nbsp;and <strong>patt&nbsp;</strong>as input parameter and returns the character in<strong> patt&nbsp;</strong>that is present at the minimum index in <strong>S</strong>. If not possible returns "$".</span><br>&nbsp;</p>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(max(|str|, |patt|))<br><strong>Expected Auxilary Space:&nbsp;</strong>O(K) where K &lt;= 26</span><br>&nbsp;</p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ |S|, |patt| ≤ 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Ola Cabs</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;<code>Strings</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
