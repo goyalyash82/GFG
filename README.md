@@ -1,2 +1,2 @@
 # GFG
-This repository serves as a collection of my solutions to various GeeksforGeeks Data Structures and Algorithms (DSA) problems, organized by the level of difficulty. - Created using [GfG To GitHub](https://github.com/AtharvaNanavate/GfG-To-GitHub)
+This repository contains my personal solutions to various LeetCode problems, organized by topic and difficulty. It serves as a record of my progress and a resource for others who want to learn, review, or improve their problem-solving skills in Data Structures and Algorithms.
