@@ -1,0 +1,21 @@
+//Back-end complete function Template for C++
+class Solution {
+  public:
+    string ReFormatString(string S, int K) {
+         string ans = "";
+        int count = 0;
+        for(int i=S.size()-1;i>=0;i--) {
+            if(S[i]== '-') continue;
+            if(count==K) {
+                ans += '-';
+                count=0;
+            }
+            ans += toupper(S[i]);
+            count++;
+        }
+        reverse(ans.begin(),ans.end());
+        return ans;
+        
+    
+    }
+};
